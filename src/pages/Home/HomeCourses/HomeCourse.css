@@ -1,0 +1,15 @@
+.courseImg{
+    overflow: hidden;
+}
+
+.imgHover{
+    transition: transform 0.3s ease;
+    width: 100%; /* make the image fill the container */
+    height: 100%;
+    overflow: hidden;
+}
+.imgHover:hover{
+    transform: scale(1.3);
+    width: 100%;
+    height: 100%;
+}
