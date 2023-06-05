@@ -1,0 +1,6 @@
+
+.remove-focus:focus {
+  border-color: transparent;
+  box-shadow: none;
+  outline: none;
+}
