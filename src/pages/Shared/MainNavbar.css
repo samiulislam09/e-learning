@@ -1,0 +1,32 @@
+.logo {
+  width: 185px;
+  height: 45px;
+}
+
+.mainTopNav {
+  display: none;
+}
+
+.active{
+  border-bottom: 2px solid #377dff;
+  transition: 0.1s;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 170px;
+  }
+
+  .mainTopNav {
+    display: block;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .logo {
+    width: 170px;
+  }
+
+  .mainTopNav {
+    display: block;
+  }
+}

@@ -1,0 +1,31 @@
+.contact{
+    display: block;
+}
+
+.topNavbarSmall{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .topNavbarLarge{
+        display: none;
+    }
+    .topNavbarSmall{
+        display: block;
+    }
+    .contact{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .topNavbarLarge{
+        display: none;
+    }
+    .topNavbarSmall{
+        display: block;
+    }
+    .contact{
+        display: none;
+    }
+  }
