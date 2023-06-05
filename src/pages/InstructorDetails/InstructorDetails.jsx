@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
   faGraduationCap,
-  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
@@ -23,7 +22,6 @@ const InstructorDetails = () => {
     email,
     img,
     subject,
-    number,
     education,
     expericence,
     Degree,
@@ -73,10 +71,6 @@ const InstructorDetails = () => {
                   <div className="d-flex align-items-center mb-3">
                     <FontAwesomeIcon icon={faEnvelope} />
                     <p className="ms-2 mb-0">{email}</p>
-                  </div>
-                  <div className="d-flex align-items-center mb-2">
-                    <FontAwesomeIcon icon={faPhone} />
-                    <p className="ms-2 mb-0">{number}</p>
                   </div>
                   <div className="d-flex">
                     <div

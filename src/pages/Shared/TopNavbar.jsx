@@ -9,15 +9,7 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faInstagram,
-  faLinkedin,
-  faSkype,
-  faSnapchat,
-  faTwitter,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
+
 import React, { useContext } from "react";
 import { Badge, Button, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -56,43 +48,6 @@ const TopNavbar = () => {
             </Col>
             <Col md={7} xs={12}>
               <div className="d-flex align-items-center justify-content-end">
-                {/* Social Media Icons */}
-                <div className="me-5">
-                  <a
-                    className="text-white me-2"
-                    href="https://www.facebook.com/iftekhar.rafti"
-                  >
-                    <FontAwesomeIcon icon={faFacebook} />
-                  </a>
-                  <a className="text-white me-2" href="https://www.twitter.com">
-                    <FontAwesomeIcon icon={faTwitter} />
-                  </a>
-                  <a
-                    className="text-white me-2"
-                    href="https://www.instagram.com"
-                  >
-                    <FontAwesomeIcon icon={faInstagram} />
-                  </a>
-                  <a
-                    className="text-white me-2"
-                    href="https://www.linkedin.com"
-                  >
-                    <FontAwesomeIcon icon={faLinkedin} />
-                  </a>
-                  <a className="text-white me-2" href="https://www.youtube.com">
-                    <FontAwesomeIcon icon={faYoutube} />
-                  </a>
-                  <a className="text-white me-2" href="https://www.skype.com">
-                    <FontAwesomeIcon icon={faSkype} />
-                  </a>
-                  <a
-                    className="text-white me-2"
-                    href="https://www.snapchat.com"
-                  >
-                    <FontAwesomeIcon icon={faSnapchat} />
-                  </a>
-                </div>
-
                 {/* Shopping Cart & Bookmark icon */}
                 <div>
                   <Link

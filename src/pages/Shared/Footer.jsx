@@ -4,15 +4,7 @@ import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../../assets/icons/logo.png";
-import {
-  faFacebook,
-  faInstagram,
-  faLinkedin,
-  faSkype,
-  faSnapchat,
-  faTwitter,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
+
 
 const Footer = () => {
   return (
@@ -100,55 +92,10 @@ const Footer = () => {
           <Row>
             <Col md={6} sm={12}>
               <div>
-                <p className="text-white fs-5">Copyright &copy; Rafti 2023</p>
+                <p className="text-white fs-5">Copyright &copy; Caliverd 2023</p>
               </div>
             </Col>
-            <Col md={6} sm={12}>
-              <div className="me-5 d-flex justify-content-end">
-                <a
-                  className="text-white me-3 fs-4"
-                  href="https://www.facebook.com/iftekhar.rafti"
-                >
-                  <FontAwesomeIcon icon={faFacebook} />
-                </a>
-                <a
-                  className="text-white me-3 fs-4"
-                  href="https://www.twitter.com"
-                >
-                  <FontAwesomeIcon icon={faTwitter} />
-                </a>
-                <a
-                  className="text-white me-3 fs-4"
-                  href="https://www.instagram.com"
-                >
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
-                <a
-                  className="text-white me-3 fs-4"
-                  href="https://www.linkedin.com"
-                >
-                  <FontAwesomeIcon icon={faLinkedin} />
-                </a>
-                <a
-                  className="text-white me-3 fs-4"
-                  href="https://www.youtube.com"
-                >
-                  <FontAwesomeIcon icon={faYoutube} />
-                </a>
-                <a
-                  className="text-white me-3 fs-4"
-                  href="https://www.skype.com"
-                >
-                  <FontAwesomeIcon icon={faSkype} />
-                </a>
-                <a
-                  className="text-white me-3 fs-4"
-                  href="https://www.snapchat.com"
-                >
-                  <FontAwesomeIcon icon={faSnapchat} />
-                </a>
-              </div>
-            </Col>
+            
           </Row>
         </Container>
       </div>

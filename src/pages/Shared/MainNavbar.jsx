@@ -8,15 +8,6 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/icons/logo.png";
 import "./MainNavbar.css";
-import {
-  faFacebook,
-  faInstagram,
-  faLinkedin,
-  faSkype,
-  faSnapchat,
-  faTwitter,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
 
 function MainNavbar() {
   return (
@@ -65,11 +56,6 @@ function MainNavbar() {
               </NavLink>
             </Nav.Link>
             <Nav.Link>
-              <NavLink className="text-black text-decoration-none" to="/blog">
-                Blog
-              </NavLink>
-            </Nav.Link>
-            <Nav.Link>
               <NavLink className="text-black text-decoration-none" to="/contact">
                 Contact
               </NavLink>
@@ -96,34 +82,6 @@ function MainNavbar() {
                 ></FontAwesomeIcon>
                 <p className="m-0">samiulislamsawon09@gmail.com</p>
               </div>
-            </div>
-            
-            {/* Social Media icons */}
-            <div className="me-5">
-              <a
-                className="me-2"
-                href="https://www.facebook.com/iftekhar.rafti"
-              >
-                <FontAwesomeIcon icon={faFacebook} />
-              </a>
-              <a className="me-2" href="https://www.twitter.com">
-                <FontAwesomeIcon icon={faTwitter} />
-              </a>
-              <a className="me-2" href="https://www.instagram.com">
-                <FontAwesomeIcon icon={faInstagram} />
-              </a>
-              <a className="me-2" href="https://www.linkedin.com">
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
-              <a className="me-2" href="https://www.youtube.com">
-                <FontAwesomeIcon icon={faYoutube} />
-              </a>
-              <a className="me-2" href="https://www.skype.com">
-                <FontAwesomeIcon icon={faSkype} />
-              </a>
-              <a className="me-2" href="https://www.snapchat.com">
-                <FontAwesomeIcon icon={faSnapchat} />
-              </a>
             </div>
           </div>
         </Navbar.Collapse>
