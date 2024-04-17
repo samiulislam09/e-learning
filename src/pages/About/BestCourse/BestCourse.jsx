@@ -17,7 +17,7 @@ const BestCourse = () => {
                 We Are Providing The Best The Best Online Course
               </h3>
               <p style={{ color: "#4b5158" }}>
-              At E-learning, we're passionate about transforming education through technology. Our platform is designed to make learning accessible, engaging, and effective for learners of all ages and backgrounds.
+              At E-learning, we're passionate about transforming education through technology. Our platform is designed to make learning accessible, engaging, and effective for learners of all ages and backgrounds. Whether you're a student looking to supplement your classroom learning, a professional seeking to advance your career, or simply someone with a thirst for knowledge, E-learning is here to support your learning journey.
               </p>
             </Slide>
           </Col>
