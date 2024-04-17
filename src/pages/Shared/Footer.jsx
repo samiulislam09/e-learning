@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import logo from "../../assets/icons/logo.png";
 
 
 const Footer = () => {
@@ -14,9 +13,9 @@ const Footer = () => {
           <Row>
             {/* Logo and First part */}
             <Col lg={3} md={6} sm={6} xs={12}>
-              <Image src={logo} alt="logo" style={{ color: "white", width: '160px', height: '45px' }} />
+              <h2 alt="logo" style={{ color: "white", width: '160px', height: '45px' }}>E-learning</h2>
               <p className="fs-6 text-white mt-3">
-                Calivard is perfectly suitable for school, college and university
+                E-learing is perfectly suitable for school, college and university
                 website with online education system.
               </p>
             </Col>
@@ -92,7 +91,7 @@ const Footer = () => {
           <Row>
             <Col md={6} sm={12}>
               <div>
-                <p className="text-white fs-5">Copyright &copy; Caliverd 2023</p>
+                <p className="text-white fs-5">Copyright &copy; E-learning 2023</p>
               </div>
             </Col>
             

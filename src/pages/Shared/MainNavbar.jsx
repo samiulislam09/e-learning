@@ -1,12 +1,10 @@
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Image } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../../assets/icons/logo.png";
 import "./MainNavbar.css";
 
 function MainNavbar() {
@@ -17,7 +15,7 @@ function MainNavbar() {
         <Navbar.Brand>
           {/* Navbar logo */}
           <Link to="/">
-            <Image className="logo" src={logo} alt="logo" />
+            <h2 className="logo">E-learning</h2>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
