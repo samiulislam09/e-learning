@@ -17,10 +17,7 @@ const BestCourse = () => {
                 We Are Providing The Best The Best Online Course
               </h3>
               <p style={{ color: "#4b5158" }}>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
-                odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-                turpis. Suspendisse urna nibh, viverra non, semper suscipit,
-                posuere a, pede.
+              At E-learning, we're passionate about transforming education through technology. Our platform is designed to make learning accessible, engaging, and effective for learners of all ages and backgrounds.
               </p>
             </Slide>
           </Col>

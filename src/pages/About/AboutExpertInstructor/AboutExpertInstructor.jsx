@@ -4,7 +4,6 @@ import { Container, Row } from "react-bootstrap";
 import SingleInstructor from "../../../Components/SingleInstructor/SingleInstructor";
 
 const AboutExpertInstructor = () => {
-  // // Instructor Data fetching from the server
   const { data: instructors = [] } = useQuery({
     queryKey: ["instructors"],
     queryFn: async () => {

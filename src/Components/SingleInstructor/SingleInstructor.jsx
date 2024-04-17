@@ -6,29 +6,32 @@ import Zoom from "react-reveal/Zoom";
 const SingleInstructor = ({ instructor }) => {
   const { _id, name, img, subject } = instructor;
   return (
-    <Col lg={3} md={6} sm={12}>
-      {/* Instructor all data show */}
-      {/* Instructor Card */}
-      <Zoom>
-        <div style={{ background: "#F5F5F5", marginBottom: "25px" }}>
-          <Image
-            style={{ width: "100%" }}
-            className="img-fluid"
-            src={img}
-            alt="instructor"
-          />
-          <div className="p-3">
-            <Link
-              to={`/instructor/${_id}`}
-              className="text-black text-decoration-none"
-            >
-              <h4 className="text-center" style={{fontFamily: 'Lato'}}>{name}</h4>
-            </Link>
-            <p className="text-center">{subject}</p>
+    // conditional render for instructor if the name is "Iftekhar Rafti" then return null
+    name === "Iftekhar Rafti" ? null : (
+      <Col lg={3} md={6} sm={12}>
+        {/* Instructor all data show */}
+        {/* Instructor Card */}
+        <Zoom>
+          <div style={{ background: "#F5F5F5", marginBottom: "25px" }}>
+            <Image
+              style={{ width: "100%" }}
+              className="img-fluid"
+              src={img}
+              alt="instructor"
+            />
+            <div className="p-3">
+              <Link
+                to={`/instructor/${_id}`}
+                className="text-black text-decoration-none"
+              >
+                <h4 className="text-center">{name}</h4>
+              </Link>
+              <p className="text-center">{subject}</p>
+            </div>
           </div>
-        </div>
-      </Zoom>
-    </Col>
+        </Zoom>
+      </Col>
+    )
   );
 };
 
